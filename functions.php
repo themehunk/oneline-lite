@@ -43,6 +43,7 @@ load_theme_textdomain('oneline-lite', get_template_directory() . '/languages');
         add_theme_support( 'woocommerce' );
         // Add support for Block Styles.
         add_theme_support( 'wp-block-styles' );
+    remove_theme_support( 'widgets-block-editor' );
 
         // Add support for full and wide align images.
         add_theme_support( 'align-wide' );
