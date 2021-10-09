@@ -43,6 +43,7 @@ load_theme_textdomain('oneline-lite', get_template_directory() . '/languages');
         add_theme_support( 'woocommerce' );
         // Add support for Block Styles.
         add_theme_support( 'wp-block-styles' );
+    remove_theme_support( 'widgets-block-editor' );
 
         // Add support for full and wide align images.
         add_theme_support( 'align-wide' );
@@ -80,22 +81,49 @@ add_editor_style( 'css/custom-editor-style.css' );
         add_theme_support( 'recommend-plugins', array(
             'themehunk-customizer' => array(
                 'name' => esc_html__( 'ThemeHunk Customizer', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
+
+            'one-click-demo-import' => array(
+                'name' => esc_html__( 'One Click Demo Import', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
+            ),
+
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
+
+             'th-advance-product-search' => array(
+                'name' => esc_html__( 'TH Advance Product & Post Search', 'oneline-lite' ),
+                'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation swatches', 'oneline-lite' ),
+                'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ), 
+
+            
             'woocommerce' => array(
                 'name' => esc_html__( 'Woocommerce', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
+
              'wp-popup-builder' => array(
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
             ),
              'themehunk-megamenu-plus' => array(
                 'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
             ),
         ) );

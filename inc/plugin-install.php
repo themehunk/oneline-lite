@@ -1,41 +1,60 @@
 <?php
+
 /**
  * tgm plugin installation and activation
  *
  * @param  
  * @return mixed|string
  */
-
 require_once( get_template_directory() . '/class-tgm-plugin-activation.php' );
-add_action( 'tgmpa_register', 'oneline_lite_register_required_plugins' );
-function oneline_lite_register_required_plugins()
+add_action( 'tgmpa_register', 'onelinelite_register_required_plugins' );
+function onelinelite_register_required_plugins()
 {
 	$wp_version_nr = get_bloginfo('version');
-	
+	if( $wp_version_nr < 3.9 ):
 		$plugins = array(
-             array(
-                'name' => __('Themehunk Customizer','oneline-lite'),
-                'slug' => 'themehunk-customizer', 
-                'required' => false,            ),
             array(
-                'name' => __('Lead Form Builder','oneline-lite'),
+                'name' => 'Lead Form Builder',
                 'slug' => 'lead-form-builder', 
                 'required' => false 
             ),
              array(
-                'name' => __('Woocommerce','oneline-lite'),
-                'slug' => 'woocommerce', 
-                'required' => false,  ),
-             array(
-                'name' => __('WP Popup Builder','oneline-lite'),
-                'slug' => 'wp-popup-builder', 
+                'name' => 'Recent Tweets Widget',
+                'slug' => 'recent-tweets-widget', 
+                'required' => false 
+            ),
+            array(
+                'name' => 'MailChimp For WordPress',
+                'slug' => 'mailchimp-for-wp', 
+                'required' => false 
+            ),
+            array(
+                'name' => 'Pricing Table',
+                'slug' => 'Pricing Table', 
                 'required' => false 
             )
-             
-        );
+		);
+	else:
+		$plugins = array(
+            array(
+                'name' => 'Lead Form Builder',
+                'slug' => 'lead-form-builder', 
+                'required' => false 
+            ),
+            array(
+                'name' => 'Recent Tweets Widget',
+                'slug' => 'recent-tweets-widget', 
+                'required' => false 
+            ),
+            array(
+                'name' => 'Pricing Table',
+                'slug' => 'Pricing Table', 
+                'required' => false 
+            )
+	);
+	endif;
 
     $config = array(
-        'id'       => 'tgmpa-onelinelite',
         'default_path' => '',
         'menu' => 'tgmpa-install-plugins',
         'has_notices' => true,
@@ -44,7 +63,7 @@ function oneline_lite_register_required_plugins()
         'is_automatic' => false,
         'message' => '',
         'strings' => array(
-            'page_title' => __('Install Plugins', 'oneline-lite'),
+            'page_title' => __('Install Required Plugins', 'oneline-lite'),
             'menu_title' => __('Install Plugins', 'oneline-lite'),
             'installing' => __('Installing Plugin: %s', 'oneline-lite'),
             'oops' => __('Something went wrong with the plugin API.', 'oneline-lite'),
@@ -66,5 +85,6 @@ function oneline_lite_register_required_plugins()
     );
     tgmpa($plugins, $config);
 }
+add_action('tgmpa_register', 'onelinelite_register_required_plugins');
 
 ?>

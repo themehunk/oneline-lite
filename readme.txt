@@ -2,8 +2,8 @@
 Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, translation-ready
 Requires at least: 4.5
-Tested up to: 5.7.2
-Stable tag: 1.5.1
+Tested up to: 5.8.1
+Stable tag: 1.5.3
 Requires PHP: 5.6
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -26,6 +26,13 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+
+= 1.5.3 =
+* Option panel update.
+
+= 1.5.2 =
+* Block widget issue fixed.
+
 = 1.5.1 =
 * Theme Support link changed.
 
