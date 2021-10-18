@@ -1,21 +1,48 @@
-<div class="wrap about-wrap theme_info_wrapper">
+<div class="wrap-th about-wrap-th theme_info_wrapper">
     <div class="header">
-        <h1><?php  echo $theme_header['welcome']; ?></h1>
-        <div class="about-text"><?php echo $theme_header['welcome_desc']; ?></div>
-        <a target="_blank" href="<?php echo $theme_header['theme_brand_url']; ?>/?wp=oneline-lite" class="themehunkhemes-badge wp-badge"><span><?php echo $theme_header['theme_brand']; ?></span></a>
+
+        <!-- themehunkhemes-badge wp-badge-->
+<div class="th-option-area">
+        <div class="th-option-top-hdr">
+            <div class="col-1">
+                <div class="logo-img">
+                <a target="_blank" href="<?php echo $theme_header['theme_brand_url']; ?>/?wp=oneline-lite" class=""> <span class="logo-image"><img src="<?php echo get_template_directory_uri(); ?>/inc/th-option/assets/images/icon.png"/><?php echo $theme_header['theme_brand']; ?></span></a>
+            </div>
+            </div>
+            <div class="col-2">
+                <div class="th-option-heading">
+                    <h2><?php  echo $theme_header['welcome']; ?></h2>
+                    <span><?php echo $theme_header['welcome_desc']; ?></span>
+                </div>
+                <span class="version"><?php echo $theme_header['v']; ?></span>
+                <span><?php echo _e("FREE THEME"); ?></span>
+            </div>
+        </div>
+        <div class="th-option-bottom-hdr">
+            <a class="tablinks active" onclick="openTab(event, 'Welcome')"><?php _e('Welcome','oneline-lite');?></a>
+            <a class="tablinks" onclick="openTab(event, 'Import-Demo-Content')"><?php _e('Import Demo Content','oneline-lite');?> </a>
+            <a class="tablinks" onclick="openTab(event, 'Recommanded-Plugin')"><?php _e('Recommanded Plugin','oneline-lite');?> </a>
+            <a class="tablinks" onclick="openTab(event, 'Free-Vs-Pro')"><?php _e('Free Vs Pro','oneline-lite');?></a>
+            <a class="tablinks" onclick="openTab(event, 'Help')"><?php _e('Help','oneline-lite');?></a>
+
+            <a class="tablinks" onclick="openTab(event, 'Child-Theme')"><?php _e('Child Theme','oneline-lite');?></a>
+
+        </div>
     </div>
-</div>
+
+    </div> <!-- /header -->
+
+
+
+
+    </div>
+
 <div class="content-wrap">
     <div class="main">
 
 <div class="tab-left" >
 
-        <div class="tab">
-            <button class="tablinks active" onclick="openTab(event, 'Welcome')"><?php _e('Welcome','oneline-lite');?></button>
-            <button class="tablinks" onclick="openTab(event, 'Recommanded-Plugin')"><?php _e('Recommanded Plugin','oneline-lite');?> </button>
-            <button class="tablinks" onclick="openTab(event, 'Free-Vs-Pro')"><?php _e('Free Vs Pro','oneline-lite');?></button>
-            <button class="tablinks" onclick="openTab(event, 'Help')"><?php _e('Help','oneline-lite');?></button>
-        </div>
+        
 
         <!-- Tab content -->
         <div id="Welcome" class="tabcontent active">
@@ -25,6 +52,31 @@
             </div> <!-- close twocolumn -->
         </div>
 
+
+          <div id="Import-Demo-Content" class="tabcontent">
+
+            <div class="rp-two-column">
+
+                <div class="rcp theme_link th-row">
+                
+                <div class="title-plugin">
+                <h3><?php _e('Click Here To import Demo Content','oneline-lite'); ?></h3>
+                 <?php //echo $this->plugin_check_api(); ?>
+				 
+				 <p> <?php _e("You need to Install required plugins like- Hunk Companion, WooCommerce and One click demo import plugin. After installing required plugins Import Butoon will activate."); ?></p>
+              <a class="ztabtn button disabled importdemo"><?php _e( 'Import Demo', 'open-shop' ); ?></a>
+				 
+             </div>
+
+             </div>
+             
+                  
+                <?php echo $this->import_demo_content_setup_api(); ?>
+            
+            </div>
+
+        
+        </div>
 
         <div id="Recommanded-Plugin" class="tabcontent">
             <div class="rp-two-column">
@@ -48,6 +100,14 @@
     </div>
 
 
+    <div id="Child-Theme" class="tabcontent">
+        <div class="rp-two-column">
+                    <?php include('child-theme.php' ); ?>
+
+        </div>
+    </div>
+
+
 </div> <!-- tab div close -->
 
 
@@ -59,4 +119,5 @@
 </div>
 
 
+</div>
 </div>

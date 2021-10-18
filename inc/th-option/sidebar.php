@@ -6,7 +6,7 @@
             <p>
             <b><?php _e('10+ pre-made templates','oneline-lite'); ?> </b><br>
             <?php _e('Oneline Pro is one of the most popular single page theme on WordPress.','oneline-lite'); ?> </p>
-                <center><a class="button button-primary" target="_blank" href="https://themehunk.com/product/oneline-single-page-wordpress-theme/"><?php _e('Upgrade','oneline-lite'); ?> </a></center>
+                <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/oneline-single-page-wordpress-theme/"><?php _e('Upgrade','oneline-lite'); ?> </a></center>
             </div>
             <hr>
             <div class="section">
