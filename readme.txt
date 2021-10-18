@@ -28,7 +28,7 @@ Yes, all our theme works on multisite.
 == Changelog ==
 
 = 1.5.3 =
-* Option panel update.
+* Th Option panel update.
 
 = 1.5.2 =
 * Block widget issue fixed.
