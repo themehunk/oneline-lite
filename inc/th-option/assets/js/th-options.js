@@ -70,6 +70,7 @@ function openTab(evt, tabName) {
                             if(i>3){
                                 var importdemo = jQuery( '.importdemo');
                                 importdemo.removeClass( 'disabled' ).attr('href',THAdmin.oneClickDemo);
+                                importdemo.addClass( 'ztabtn ' );
                             };
                         }
                 });

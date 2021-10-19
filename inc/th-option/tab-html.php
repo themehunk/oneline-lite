@@ -64,7 +64,7 @@
                  <?php //echo $this->plugin_check_api(); ?>
 				 
 				 <p> <?php _e("You need to Install required plugins like- Hunk Companion, WooCommerce and One click demo import plugin. After installing required plugins Import Butoon will activate."); ?></p>
-              <a class="ztabtn button disabled importdemo"><?php _e( 'Import Demo', 'open-shop' ); ?></a>
+              <a class="button disabled importdemo"><?php _e( 'Import Demo', 'open-shop' ); ?></a>
 				 
              </div>
 
