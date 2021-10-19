@@ -25,8 +25,6 @@
             <a class="tablinks" onclick="openTab(event, 'Free-Vs-Pro')"><?php _e('Free Vs Pro','oneline-lite');?></a>
             <a class="tablinks" onclick="openTab(event, 'Help')"><?php _e('Help','oneline-lite');?></a>
 
-            <a class="tablinks" onclick="openTab(event, 'Child-Theme')"><?php _e('Child Theme','oneline-lite');?></a>
-
         </div>
     </div>
 
