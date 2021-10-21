@@ -16,7 +16,7 @@
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons" size="30"></span>
-                     <span class="info"><?php _e('1','oneline-lite'); ?> </span></td>
+                     <span class="info"><?php _e('2','oneline-lite'); ?> </span></td>
                      <td class="status success"><span class="dashicon dashicons" size="30"></span>
                      <span class="info"><a href="https://themehunk.com/product/oneline-single-page-wordpress-theme/#tabfix" target="_blank"><?php _e('10','oneline-lite'); ?></a> </span></td>
                   </tr>
