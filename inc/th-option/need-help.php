@@ -20,7 +20,7 @@
 <div class="theme_link">
 
     <h3><?php _e('Documentation','oneline-lite'); ?><!-- <php echo $theme_config['plugin_title']; ?> --></h3>
-    <p><?php _e('Our WordPress Theme is well documented, you can go with our documentation and learn to customize Online Lite.','oneline-lite'); ?></p>
+    <p><?php _e('Our WordPress Theme is well documented, you can go with our documentation and learn to customize Oneline Lite.','oneline-lite'); ?></p>
     <p><a target="_blank" href="https://themehunk.com/docs/oneline-lite-theme/"><?php _e(' Go to docs','oneline-lite'); ?></a></p>
     
 </div>
