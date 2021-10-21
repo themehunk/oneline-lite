@@ -25,7 +25,7 @@ function openTab(evt, tabName) {
 
     THoptionAdmin = {
         init: function(){
-            this.rPlugins = ['hunk-companion', 'one-click-demo-import', 'woocommerce'];
+            this.rPlugins = ['themehunk-customizer', 'one-click-demo-import', 'woocommerce'];
 
             this._bind();
             this._importActiveBtn();
@@ -47,9 +47,8 @@ function openTab(evt, tabName) {
                 setTimeout(function() {
 
                 $class.removeClass( 'updating-message disabled' )
-                .addClass( 'button-primary activated' )
-                .html( 'Home Page Activated');
-                    jQuery('.default-home').css('background','#278d27');
+                .css( 'display','none' );
+                jQuery('.alink').css('display','inline-block');
                                // location.reload(true);
                 }, 1000);
 

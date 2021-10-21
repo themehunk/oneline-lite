@@ -128,10 +128,11 @@ add_editor_style( 'css/custom-editor-style.css' );
 
 // Import Data Content plugins
         add_theme_support( 'import-demo-content', array(
-             'hunk-companion' => array(
-                'name' => esc_html__( 'Hunk Companion', 'oneline-lite' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'hunk-companion/hunk-companion.php',
+
+            'themehunk-customizer' => array(
+                'name' => esc_html__( 'ThemeHunk Customizer', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
 
             'one-click-demo-import' => array(

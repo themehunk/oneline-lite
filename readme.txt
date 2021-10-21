@@ -185,9 +185,8 @@ Yes, all our theme works on multisite.
 Initial release
 
 == Upgrade Notice ==
-
-= 1.5.1 =
-* Theme Support link changed.
+= 1.5.3 =
+* Th Option panel update.
 
 == Resources ==
  

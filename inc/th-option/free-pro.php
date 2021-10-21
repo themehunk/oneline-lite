@@ -4,8 +4,21 @@
                <tbody class="table-body">
                   <tr class="table-head">
                      <th class="title" align="left"><?php _e('Features','oneline-lite'); ?></th>
-                     <th class="status" align="center"><?php _e('OnlineLite','oneline-lite'); ?> </th>
-                     <th class="status" align="center"><?php _e('OnlinePro','oneline-lite'); ?> </th>
+                     <th class="status" align="center"><?php _e('Online Lite','oneline-lite'); ?> </th>
+                     <th class="status" align="center"><?php _e('Online Pro','oneline-lite'); ?> </th>
+                  </tr>
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4><?php _e('Pre Made Template','oneline-lite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons" size="30"></span>
+                     <span class="info"><?php _e('1','oneline-lite'); ?> </span></td>
+                     <td class="status success"><span class="dashicon dashicons" size="30"></span>
+                     <span class="info"><a href="https://themehunk.com/product/oneline-single-page-wordpress-theme/#tabfix" target="_blank"><?php _e('10','oneline-lite'); ?></a> </span></td>
                   </tr>
 
                   <tr class="feature-row">
@@ -79,80 +92,8 @@
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span>
                         <span class="info"><?php _e('(Six different Button styles with <br>fully customizable option)','oneline-lite'); ?> </span></td>
                   </tr>
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4><?php _e('Header setting','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4><?php _e('Header Transparent','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
 
 
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4><?php _e('Custom Button ( Last menu item )','oneline-lite'); ?>  </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4> <?php _e('SVG Design','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4> <?php _e('Parallax Effect','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-                  
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4><?php _e('Fully Responsive','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
-
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4> <?php _e('Background Color/Image','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
 
                   <tr class="feature-row">
                      <td class="title">
@@ -165,28 +106,7 @@
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span>
                      <span class="info"><?php _e('(Unlimited number of columns/items)','oneline-lite'); ?> </span></td>
                   </tr>
-
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4> <?php _e('Ribbon Section','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span>
-                     <span class="info"><?php _e('(Video background)','oneline-lite'); ?> </span></td>
-                  </tr>
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4> <?php _e('Header Visibility','oneline-lite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
-                  </tr>
+                  
 
                   <tr class="feature-row">
                      <td class="title">
@@ -339,7 +259,7 @@
                         </div>
                      </td>
                      <td class="status upsell"><?php _e('Get access to all Pro features','oneline-lite'); ?> </td>
-                     <td class="status success"><a href="https://themehunk.com/product/oneline-single-page-wordpress-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get OnelinePro Now','oneline-lite'); ?></a></td>
+                     <td class="status success"><a href="https://themehunk.com/product/oneline-single-page-wordpress-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get Oneline Pro Now','oneline-lite'); ?></a></td>
                   </tr>
 
 
