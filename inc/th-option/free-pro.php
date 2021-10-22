@@ -4,19 +4,19 @@
                <tbody class="table-body">
                   <tr class="table-head">
                      <th class="title" align="left"><?php _e('Features','oneline-lite'); ?></th>
-                     <th class="status" align="center"><?php _e('Online Lite','oneline-lite'); ?> </th>
-                     <th class="status" align="center"><?php _e('Online Pro','oneline-lite'); ?> </th>
+                     <th class="status" align="center"><?php _e('Oneline Lite','oneline-lite'); ?> </th>
+                     <th class="status" align="center"><?php _e('Oneline Pro','oneline-lite'); ?> </th>
                   </tr>
 
 
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4><?php _e('Pre Made Template','oneline-lite'); ?> </h4>
+                           <h4 style="color: #FF6D00;"><?php _e('Pre Made Template','oneline-lite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons" size="30"></span>
-                     <span class="info"><?php _e('1','oneline-lite'); ?> </span></td>
+                     <span class="info"><?php _e('2','oneline-lite'); ?> </span></td>
                      <td class="status success"><span class="dashicon dashicons" size="30"></span>
                      <span class="info"><a href="https://themehunk.com/product/oneline-single-page-wordpress-theme/#tabfix" target="_blank"><?php _e('10','oneline-lite'); ?></a> </span></td>
                   </tr>
