@@ -61,7 +61,7 @@
                 <div class="title-plugin">
                 <h3><?php _e('Click Here To Import Demo Content','oneline-lite'); ?></h3>
 				 
-				 <p> <?php _e("You need to Install required plugins like- Hunk Companion, WooCommerce and One click demo import plugin. After installing required plugins import button will activate."); ?></p>
+				 <p> <?php _e("You need to Install required plugins like- Hunk Companion, WooCommerce and One click demo import plugin. After installing required plugins import button will activate.", 'oneline-lite'); ?></p>
               <a class="button disabled importdemo"><?php _e( 'Import Demo', 'oneline-lite' ); ?></a>
 				 
              </div>
