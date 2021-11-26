@@ -77,60 +77,70 @@ $args = array(
 );
 add_theme_support( 'custom-background', $args );
 add_editor_style( 'css/custom-editor-style.css' );
+
+
+
+
 // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
 
-            'wp-popup-builder' => array(
-                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'oneline-lite' ),
+            'themehunk-customizer' => array(
+                'name' => esc_html__( 'Themehunk Customizer (Highly Recommended)', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
-                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
 
+            'th-advance-product-search' => array(
+            'name' => esc_html__( 'TH Advance Product Search', 'oneline-lite' ),
+            'img' => 'icon-128x128.gif',
+            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'oneline-lite' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
-
-            'th-advance-product-search' => array(
-                'name' => esc_html__( 'TH Advance Product & Post Search', 'oneline-lite' ),
-                'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
-            ),
-
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation swatches', 'oneline-lite' ),
-                'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
-            ), 
-
-            'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'oneline-lite' ),
+            'wp-popup-builder' => array(
+                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
-                'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
-            ),
-
-
+                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
             'woocommerce' => array(
                 'name' => esc_html__( 'Woocommerce', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
 
-             
-             'themehunk-megamenu-plus' => array(
-                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'oneline-lite' ),
-                 'img' => 'icon-128x128.png',
+            'yith-woocommerce-wishlist' => array(
+                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'oneline-lite' ),
+                  'img' => 'icon-128x128.jpg',
+                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
+             ),
+            'yith-woocommerce-compare' => array(
+                 'name' => esc_html__( 'YITH WooCommerce Compare', 'oneline-lite' ),
+                  'img' => 'icon-128x128.jpg',
+                 'active_filename' => 'yith-woocommerce-compare/init.php',
+             ),
+
+            'themehunk-megamenu-plus' => array(
+                'name' => esc_html__( 'ThemeHunk Megamenu – Menu builder', 'oneline-lite' ),
+                'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
-            ),
+            ), 
+            
+
         ) );
 
-
-// Import Data Content plugins
+        // Import Data Content plugins
         add_theme_support( 'import-demo-content', array(
 
-            'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'oneline-lite' ),
+             'themehunk-customizer' => array(
+                'name' => esc_html__( 'Themehunk Customizer (Highly Recommended)', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
@@ -147,6 +157,16 @@ add_editor_style( 'css/custom-editor-style.css' );
             ),
 
         ));
+
+
+
+        // Useful plugins
+        add_theme_support( 'useful-plugins', array(
+             'themehunk-megamenu-plus' => array(
+                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'oneline-lite' ),
+                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
+            ),
+        ) );
 
 
 
