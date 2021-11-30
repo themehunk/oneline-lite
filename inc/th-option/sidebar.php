@@ -5,7 +5,7 @@
             </h3>
             <p>
             <b><?php _e('Pre-made premium templates','oneline-lite'); ?> </b><br>
-            <?php _e('Oneline Lite is one of the most popular eCommerce theme on WordPress.','oneline-lite'); ?> </p>
+            <?php _e('Oneline Pro is one of the most popular eCommerce theme on WordPress.','oneline-lite'); ?> </p>
                 <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/oneline-single-page-wordpress-theme/"><?php _e('Upgrade','oneline-lite'); ?> </a></center>
             </div>
             <hr>
