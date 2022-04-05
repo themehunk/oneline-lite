@@ -1,10 +1,10 @@
-=== Theme: Oneline-lite ===
+=== Theme: Oneline Lite ===
 Contributors: ThemeHunk
-Tags: right-sidebar, custom-menu, translation-ready
-Requires at least: 4.5
-Tested up to: 5.8.2
-Stable tag: 1.5.5
-Requires PHP: 5.6
+Tags: right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
+Requires at least: 5.5
+Tested up to: 5.9
+Stable tag: 1.5.6
+Requires PHP: 5.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -12,7 +12,7 @@ License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 "Oneline-lite One Page Business WordPress Theme" By ThemeHunk.
 
 == Description ==
-Onelinelite is a versatile one page theme for creating beautiful websites. This theme comes with powerful features which will help you in designing a wonderful website for any type of niche (Business, Landing page, E-commerce, Local business, Personal website). It is the most advanced free WordPress theme available on the web with live customizer. This theme comes with fully responsive slider with clean and elegant design. Theme supports drag & drop widget for section content, Woocommerce section to feature your product at home page and use your site as an online store. Contact section with lead generation functionality. These all section is supported by our plugin ThemeHunk customizer. Theme has latest SVG design with will make your site attractive. 
+Oneline lite is a versatile one page theme for creating beautiful websites. This theme comes with powerful features which will help you in designing a wonderful website for any type of niche (Business, Landing page, E-commerce, Local business, Personal website). It is the most advanced free WordPress theme available on the web with live customizer. This theme comes with fully responsive slider with clean and elegant design. Theme supports drag & drop widget for section content, Woocommerce section to feature your product at home page and use your site as an online store. Contact section with lead generation functionality. These all section is supported by our plugin ThemeHunk customizer. Theme has latest SVG design with will make your site attractive. 
 
 == Frequently Asked Questions ==
 
@@ -26,6 +26,10 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+
+= 1.5.6 =
+* Option panel new plugin added.
+* Bug fixed.
 
 = 1.5.5 =
 * Th Option panel updated.

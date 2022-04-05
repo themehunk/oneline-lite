@@ -78,9 +78,6 @@ $args = array(
 add_theme_support( 'custom-background', $args );
 add_editor_style( 'css/custom-editor-style.css' );
 
-
-
-
 // Recommend plugins
         add_theme_support( 'recommend-plugins', array(
 
@@ -95,16 +92,16 @@ add_editor_style( 'css/custom-editor-style.css' );
             'img' => 'icon-128x128.gif',
             'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
             ),
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation Swatches', 'oneline-lite' ),
-                 'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
-            ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'lead-form-builder/lead-form-builder.php',
             ),
+            'unlimited-blocks' => array(
+              'name' => esc_html__( 'Unlimited Blocks For Gutenberg', 'oneline-lite' ),
+              'img' => 'icon-128x128.png',
+              'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
+              ),
             'wp-popup-builder' => array(
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
@@ -115,18 +112,21 @@ add_editor_style( 'css/custom-editor-style.css' );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
-
-            'yith-woocommerce-wishlist' => array(
-                 'name' => esc_html__( 'YITH WooCommerce Wishlist', 'oneline-lite' ),
-                  'img' => 'icon-128x128.jpg',
-                 'active_filename' => 'yith-woocommerce-wishlist/init.php',
-             ),
-            'yith-woocommerce-compare' => array(
-                 'name' => esc_html__( 'YITH WooCommerce Compare', 'oneline-lite' ),
-                  'img' => 'icon-128x128.jpg',
-                 'active_filename' => 'yith-woocommerce-compare/init.php',
-             ),
-
+            'th-all-in-one-woo-cart' => array(
+              'name' => esc_html__( 'TH Add to Cart', 'oneline-lite' ),
+               'img' => 'icon-128x128.png',
+              'active_filename' => 'th-all-in-one-woo-cart/th-all-in-one-woo-cart.php',
+          ),
+            'th-product-compare' => array(
+              'name' => esc_html__( 'TH Product Compare', 'oneline-lite' ),
+               'img' => 'icon-128x128.png',
+              'active_filename' => 'th-product-compare/th-product-compare.php',
+          ),
+            'th-variation-swatches' => array(
+              'name' => esc_html__( 'TH Variation Swatches', 'oneline-lite' ),
+               'img' => 'icon-128x128.gif',
+              'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+          ),
             'themehunk-megamenu-plus' => array(
                 'name' => esc_html__( 'ThemeHunk Megamenu – Menu builder', 'oneline-lite' ),
                 'img' => 'icon-128x128.png',
