@@ -3,7 +3,7 @@ Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires at least: 5.5
 Tested up to: 5.9
-Stable tag: 1.5.6
+Stable tag: 1.5.7
 Requires PHP: 5.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -26,6 +26,9 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+
+= 1.5.7 =
+* Leadform title style issue resolved.
 
 = 1.5.6 =
 * Option panel new plugin added.
@@ -196,9 +199,9 @@ Yes, all our theme works on multisite.
 Initial release
 
 == Upgrade Notice ==
-= 1.5.5 =
-* Th Option panel updated.
-* Child theme notification added.
+= 1.5.7 =
+* Leadform title style issue resolved.
+
 
 == Resources ==
  
