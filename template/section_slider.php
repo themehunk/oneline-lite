@@ -20,8 +20,8 @@ $prlx_top_bottom ='';
             <ul class="slides">
                 <!-- #1 Slider -->
                 <?php if (get_theme_mod('first_slider_image','') != '') { ?>
-                <li data-center="<?php echo $prlx_data_center;?>"
-  data-top-bottom="<?php echo $prlx_top_bottom;?>" style="background:url('<?php echo esc_url(get_theme_mod('first_slider_image')); ?>');">
+                <li data-center="<?php echo esc_attr( $prlx_data_center );?>"
+  data-top-bottom="<?php echo esc_attr($prlx_top_bottom);?>" style="background:url('<?php echo esc_url(get_theme_mod('first_slider_image')); ?>');">
                     <div class="over-lay">
                         <div class="fs-caption wow thunk-fadeInDown" data-wow-delay="1s">
                             <div class="caption-container" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slider-div h2">
@@ -40,8 +40,8 @@ $prlx_top_bottom ='';
                  } ?>
                 <!-- #2 Slider -->
                   <?php if (get_theme_mod('second_slider_image','') != '') { ?>
-                <li data-center="<?php echo $prlx_data_center;?>"
-  data-top-bottom="<?php echo $prlx_top_bottom;?>"  style="background:url('<?php echo esc_url(get_theme_mod('second_slider_image')); ?>');">
+                <li data-center="<?php echo esc_attr( $prlx_data_center );?>"
+  data-top-bottom="<?php echo esc_attr($prlx_top_bottom);?>"  style="background:url('<?php echo esc_url(get_theme_mod('second_slider_image')); ?>');">
             <div class="over-lay">
              <div class="fs-caption wow thunk-fadeInDown" data-wow-delay="1s">
                   <div class="caption-container" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slider-div h2">
@@ -59,8 +59,8 @@ $prlx_top_bottom ='';
 
                  <!-- #3 Slider -->
                   <?php if (get_theme_mod('third_slider_image','') != '') { ?>
-                <li data-center="<?php echo $prlx_data_center;?>"
-  data-top-bottom="<?php echo $prlx_top_bottom;?>" style="background:url('<?php echo esc_url(get_theme_mod('third_slider_image')); ?>');">
+                <li data-center="<?php echo esc_attr($prlx_data_center);?>"
+  data-top-bottom="<?php echo esc_attr($prlx_top_bottom);?>" style="background:url('<?php echo esc_url(get_theme_mod('third_slider_image')); ?>');">
                     <div class="over-lay">
                         <div class="fs-caption wow thunk-fadeInDown" data-wow-delay="1s">
                             <div class="caption-container" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slider-div h2">

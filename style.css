@@ -4,9 +4,9 @@ Author: ThemeHunk
 Theme URI: https://www.themehunk.com/product/oneline-lite-theme/
 Author URI: https://www.themehunk.com 
 Description: oneline Lite is the perfect theme for your business. Oneline lite is a versatile one page theme for creating beautiful websites.  Oneline is perfect for blog, business, portfolio, education, startup, agencies, eCommerce shop (WooCommerce), magazine, coaching, non-profit, events and most types of websites. This theme comes with powerful features which will help you in designing a wonderful website for any type of niche (Business, Landing page, E-commerce, Local business, Personal website). It is the most advanced free WordPress theme available on the web with live customizer. This theme comes with fully responsive slider with clean and elegant design. Theme supports drag & drop widget for section content, Woocommerce section to feature your product at home page and use your site as an online store. Contact section with lead generation functionality. These all section is supported by our plugin ThemeHunk customizer. Theme has latest SVG design with will make your site attractive. 
-Version: 1.5.8
+Version: 1.5.9
 Requires at least: 5.5
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 5.5
 License: GNU General Public License v3 or later
 License URI: license.txt 
@@ -288,7 +288,7 @@ a img.aligncenter {
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
  .svg-top-container {
-    margin-top: -99.7px !important;
+    margin-top: -98.7px !important;
     margin-bottom: 0px !important;
     height: 100px;
     width: 100%;
@@ -296,7 +296,7 @@ a img.aligncenter {
     z-index: 4;
 }
 .svg-bottom-container{
-    margin-top: -0.3px!important;
+    margin-top: -0.9px!important;
     margin-bottom: 0px!important;
     height: 100px;
     width: 100%;
@@ -1006,6 +1006,12 @@ margin:0;
   color: #fff;
 line-height: 46px;
 margin:0;
+}
+.testimonials-wrapper{
+    position: relative;
+}
+.testimonials-wrapper .svg-top-container{
+    top: 1px;
 }
 #services .sub-heading, #portfolio .sub-heading, #team .sub-heading,
 #latest-post .sub-heading, #price-package .sub-heading,#woo-section .sub-heading,
@@ -5541,6 +5547,12 @@ margin-top: .5em;
 }
 .woocommerce span.onsale {
 background-color:#D4B068;
+max-width: 25px;
+max-height: 25px;
+line-height: initial;
+display: flex;
+align-items: center;
+justify-content: center;
 z-index:1;
 }
 .woocommerce ul.products li.product h3{
