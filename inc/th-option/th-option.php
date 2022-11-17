@@ -41,8 +41,9 @@ function tab_constant(){
     $tab_array = array();
     $tab_array['header'] = array('theme_brand' => __('ThemeHunk','oneline-lite'),
     'theme_brand_url' => esc_url($theme_data->get( 'AuthorURI' )),
-    'welcome'=>sprintf(esc_html__('Welcome To %1s Theme', 'oneline-lite'), esc_html__($theme_data->get( 'Name' )), $theme_data->get( 'Version' ) ),
-    'welcome_desc' => esc_html__($theme_data->get( 'Name' ).' is a versatile one page responsive theme for creating beautiful websites.', 'oneline-lite' ),
+    'welcome'=>sprintf(esc_html__('Welcome To %1s Theme', 'oneline-lite'), esc_html($theme_data->get( 'Name' )), $theme_data->get( 'Version' ) ),
+    
+    'welcome_desc' => sprintf(esc_html__('%1s is a versatile one page responsive theme for creating beautiful websites.','oneline-lite'),$theme_data->get( 'Name' )),
     'v'=> 'Version '.$theme_data->get( 'Version' )
     );
     return $tab_array;

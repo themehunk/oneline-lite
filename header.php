@@ -95,7 +95,7 @@ if (get_theme_mod('header_layout')=='split') { ?>
           <?php endif;  
           $description = get_bloginfo( 'description', 'display' );
           if ( $description || is_customize_preview() ) : ?>
-            <p class="site-description"><?php echo $description; ?></p>
+            <p class="site-description"><?php echo esc_html($description); ?></p>
           <?php endif;  } ?>
           </div>
           <div id="main-menu-wrapper">
