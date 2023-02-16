@@ -1,9 +1,9 @@
 === Theme: Oneline Lite ===
 Contributors: ThemeHunk
-Tags: right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
+Tags: right-sidebar, block-patterns, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires at least: 5.5
 Tested up to: 6.1
-Stable tag: 1.5.9
+Stable tag: 6.0
 Requires PHP: 5.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -26,6 +26,9 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+
+= 6.0 =
+* Block pattern cpmpatibility added.
 
 = 1.5.9 =
 * Style improved.
@@ -207,9 +210,8 @@ Yes, all our theme works on multisite.
 Initial release
 
 == Upgrade Notice ==
-= 1.5.9 =
-* Style improved.
-* Theme tested with WOrdPress 6.1.
+= 6.0 =
+* Block pattern cpmpatibility added.
 
 
 == Resources ==
