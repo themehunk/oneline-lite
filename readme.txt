@@ -1,6 +1,6 @@
 === Theme: Oneline Lite ===
 Contributors: ThemeHunk
-Tags: right-sidebar, block-patterns, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
+Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires at least: 5.5
 Tested up to: 6.1
 Stable tag: 6.0
@@ -29,6 +29,7 @@ Yes, all our theme works on multisite.
 
 = 6.0 =
 * Block pattern cpmpatibility added.
+* Blank Tempalte added.
 
 = 1.5.9 =
 * Style improved.
@@ -212,6 +213,7 @@ Initial release
 == Upgrade Notice ==
 = 6.0 =
 * Block pattern cpmpatibility added.
+* Blank Tempalte added.
 
 
 == Resources ==
