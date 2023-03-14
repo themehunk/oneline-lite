@@ -52,8 +52,13 @@ load_theme_textdomain('oneline-lite', get_template_directory() . '/languages');
 
         // Enqueue editor styles.
         add_editor_style( 'style-editor.css' );
+
+        add_editor_style( 'editor.css' );
+
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
+
+        add_theme_support( 'custom-spacing' );
 // post-header image
 $defaults = array(
     'default-image'          => '',
