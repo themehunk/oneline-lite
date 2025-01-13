@@ -45,9 +45,12 @@ $prlx_top_bottom ='';
 
 
 
-<?php echo oneline_lite_page_svg_bottom_enable(); ?>
-<?php echo oneline_lite_breadcrumb(); ?>
-<?php echo oneline_lite_page_svg_top_enable(); ?>
+<?php echo oneline_lite_page_svg_bottom_enable(); 
+ 
+ if (function_exists('woocommerce_breadcrumb')) {
+        woocommerce_breadcrumb();                
+}
+echo oneline_lite_page_svg_top_enable(); ?>
 </div>
 <div id="page" class="clearfix <?php echo $layout; ?> <?php echo svg_active();?>">
 <div class="content-wrapper">
