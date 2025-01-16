@@ -1,10 +1,9 @@
 === Theme: Oneline Lite ===
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
-Requires at least: 5.5
+Requires PHP: 5.5
 Tested up to: 6.7
 Stable tag: 6.4
-Requires PHP: 5.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,6 +28,7 @@ Yes, all our theme works on multisite.
 
 = 6.4 =
 Update: Theme tested with WordPress 6.7.
+Update: Theme option updated.
 
 = 6.3 =
 Update: Theme tested with WordPress 6.6.
@@ -225,6 +225,8 @@ Initial release
 == Upgrade Notice ==
 = 6.4 =
 Update: Theme tested with WordPress 6.7.
+Update: Theme option updated.
+
 
 
 == Resources ==
