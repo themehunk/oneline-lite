@@ -10,7 +10,7 @@
     <h3><?php _e('Share','m-shop'); ?></h3>
     <p> <?php _e('Love using this theme? Spread the word and let the world know you’ve crafted an awesome website for your store! Share your experience and showcase your stunning online presence to inspire others.','m-shop');?></p> 
 
-    <a href="https://twitter.com/intent/tweet?url=https://themehunk.com/product/m-shop/&text=Hey, I am using this awesome WooCommerce Theme for WordPress and created a beautiful store website for <?php echo esc_url(home_url()); ?> . You can also check out this awesome theme: M Shop By 
+    <a href="https://twitter.com/intent/tweet?url=https://themehunk.com/product/oneline-lite-theme/&text=Hey, I am using this awesome WooCommerce Theme for WordPress and created a beautiful store website for <?php echo esc_url(home_url()); ?> . You can also check out this awesome theme: Oneline Lite By 
 @ThemeHunk %20%23WooCommerce%20%23WordPress" target="_blank" rel="external noreferrer noopener" class="x-gropup is-link">
         <span class="x-image"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/th-option/assets/images/x.png" /></span>
         <span><?php _e(' Click to Tweet','m-shop'); ?></span></a>
