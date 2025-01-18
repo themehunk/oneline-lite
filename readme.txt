@@ -3,7 +3,7 @@ Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires PHP: 5.5
 Tested up to: 6.7
-Stable tag: 6.4
+Stable tag: 6.3
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,13 +25,15 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
-
-= 6.4 =
+= 6.3 =
 Update: Theme tested with WordPress 6.7.
 Update: Theme option updated.
-
-= 6.3 =
-Update: Theme tested with WordPress 6.6.
+* New: Vayu Blocks added in recommended plugins.
+* New: Theme added in new imprter.
+* Update: Welcome tab style issue updated.
+* New: Twitter share button added. 
+* Update: Video tab removed.
+* Update: Theme tested with new importer.
 
 = 6.2 =
 Update: Style Improved.
