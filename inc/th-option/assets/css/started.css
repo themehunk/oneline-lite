@@ -161,41 +161,28 @@ a.plugin-detail.thickbox.open-plugin-details-modal {
 }
 
 .rp-two-column.welcome-tabs{
-    flex-direction: column;
-    height: 900px;
+    flex-direction: row;
     justify-content: flex-start;
 }
 .tab-left {
     width: 70%;
 }
-
  .th-row{
   display: flex;
 }
-
 .th-column {
   flex: 50%;
 }
-
 .about-wrap .header{
     margin-bottom: 35px;
 }
-
-
-
-
 .main {
     display: flex;
 }
-
-
-
-
 /* Create an active/current tablink class */
 .th-option-bottom-hdr .tablinks.active {
   color: #228add;
 }
-
 /* Style the tab content */
 .tabcontent {
   display: none;
@@ -210,20 +197,16 @@ display: block;
 box-shadow: 0px 0px 10px 0px #D0EAF5;
 width: 50%;
 }
-
 .theme_link p{
     font-weight: 400;
     line-height: 1.5;
     font-size: 16px;
 }
-
-
 .content-wrap{
     width: 100%;
     position: relative;
     display: flex;
 }
-
 .sidebar-wrap hr {
     margin: 20px 0;
 }
@@ -232,14 +215,12 @@ width: 50%;
     width: 25%;
     padding-left: 20px;
 }
-
 .sidebar{
     
     padding: 10px 5px 5px;
     flex-direction: column;
     align-self: flex-start;
 }
-
 .sidebar-section {
    box-shadow: 0px 0px 10px 0px #d0eaf5; 
     margin-bottom: 20px;
@@ -247,14 +228,11 @@ width: 50%;
     padding: 10px;
     background: #f8faff;
 }
-
 .sidebar-section p{
     font-weight: 400;
     line-height: 1.6;
     font-size: 14px;
 }
-
-
 .tabs-list a{
     display: inline-block;
     padding: 20px;
@@ -268,12 +246,10 @@ width: 50%;
 .tabs-list a.active{
     background: #FFF;
 }
-
 .th-column img {
     width: 128px;
     border: 1px solid #efefef;
 }
-
 .facebook-gropup{
 display: flex;
     align-items: center;
@@ -291,7 +267,6 @@ display: flex;
 .facebook-gropup:hover{
 color:#fff;
 }
-
 /** customizer links **/
  
  .card-content{
@@ -303,7 +278,6 @@ color:#fff;
 display: flex;
     margin-top: 10px;
 }
-
 .card-content .columns .col{
     margin-right: 50px;
 }
@@ -320,8 +294,6 @@ display: flex;
     border-width: 1px;
     height: 0;
 }
-
-
 /*table conent css*/
 .th-buy-pro{
 
@@ -502,3 +474,29 @@ display: flex;
    padding: 1%;
 }
 }
+.content-wrap a{
+    text-decoration: none;
+}
+
+/* share X link */
+.x-gropup .x-image img{
+    width: 50px;
+    }
+    .x-gropup{
+        display: flex;
+        align-items: center;
+        background-color: #2a2929;
+        padding: 2px 12px;
+        margin: 20px 0 0 !important;
+        color: #fff;
+        line-height: normal;
+        text-decoration: none;
+        box-shadow: 0 0 0 0 #3b5998;
+        transition: .3s ease;
+        border-radius: 58px;
+        width: max-content;
+    }
+    .x-gropup:hover ,.x-gropup:active,.x-gropup:focus{
+    color:#fff;
+    background-color: #000000;
+    }

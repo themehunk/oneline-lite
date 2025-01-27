@@ -6,6 +6,15 @@
     </p>
 </div>
 
+<div class="theme_link">
+    <h3><?php _e('Share','m-shop'); ?></h3>
+    <p> <?php _e('Love using this theme? Spread the word and let the world know you’ve crafted an awesome website for your store! Share your experience and showcase your stunning online presence to inspire others.','m-shop');?></p> 
+
+    <a href="https://twitter.com/intent/tweet?url=https://themehunk.com/product/m-shop/&text=Hey, I am using this awesome WooCommerce Theme for WordPress and created a beautiful store website for <?php echo esc_url(home_url()); ?> . You can also check out this awesome theme: M Shop By 
+@ThemeHunk %20%23WooCommerce%20%23WordPress" target="_blank" rel="external noreferrer noopener" class="x-gropup is-link">
+        <span class="x-image"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/th-option/assets/images/x.png" /></span>
+        <span><?php _e(' Click to Tweet','m-shop'); ?></span></a>
+</div>
 
 <div class="theme_link">
     <h3><?php _e('Create a child theme','oneline-lite'); ?></h3>
@@ -23,14 +32,4 @@
     <p><?php _e('Our WordPress Theme is well documented, you can go with our documentation and learn to customize Oneline Lite.','oneline-lite'); ?></p>
     <p><a target="_blank" href="https://themehunk.com/docs/oneline-lite/"><?php _e(' Go to docs','oneline-lite'); ?></a></p>
     
-</div>
-
-
-
-<div class="theme_link">
-    <h3><?php _e('Join Group','oneline-lite'); ?></h3>
-    <p> <?php _e('Join the community of friendly ThemeHunk users. Get connected, share opinion, ask questions and help each other !','oneline-lite');?></p> 
-
-    <a href="https://www.facebook.com/groups/themehunk" target="_blank" rel="external noreferrer noopener" class="facebook-gropup is-link"><span class="dashicon dashicons dashicons-facebook-alt"></span><span>
-        <?php _e(' Join our Facebook Group','oneline-lite'); ?></span></a>
 </div>
