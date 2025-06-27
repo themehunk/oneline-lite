@@ -20,7 +20,6 @@ $first_slider_image =  get_template_directory_uri() . '/images/slider.jpeg'; // 
         <div class="flexslider <?php echo $prlx_class;?> <?php echo $bnt_style;?>">
             <ul class="slides">
                 <!-- #1 Slider -->
-                <?php if (get_theme_mod('first_slider_image',$first_slider_image) != '') { ?>
                 <li data-center="<?php echo esc_attr( $prlx_data_center );?>"
   data-top-bottom="<?php echo esc_attr($prlx_top_bottom);?>" style="background:url('<?php echo esc_url(get_theme_mod('first_slider_image',$first_slider_image)); ?>');">
                     <div class="over-lay">
@@ -36,9 +35,7 @@ $first_slider_image =  get_template_directory_uri() . '/images/slider.jpeg'; // 
                         </div>
                     </div>
                 </li>
-                <?php }else{
-                    echo do_shortcode("[themehunk-customizer-oneline-lite did='4']");
-                 } ?>
+               
                 <!-- #2 Slider -->
                   <?php if (get_theme_mod('second_slider_image','') != '') { ?>
                 <li data-center="<?php echo esc_attr( $prlx_data_center );?>"
