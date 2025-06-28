@@ -3,7 +3,7 @@ Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires PHP: 5.5
 Tested up to: 6.7
-Stable tag: 6.4
+Stable tag: 6.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,6 +25,9 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+
+= 6.5 =
+Update: Screenshot updated with cco license.
 
 = 6.4 =
 Update: Screenshot updated.
@@ -241,7 +244,7 @@ Update: Text conditional issue resolved.
 License for images:
 
 Screenshot
-https://unsplash.com/photos/woman-holding-brown-umbrella-TyQ-0lPp6e4
+https://www.pexels.com/photo/photo-of-high-rise-buildings-at-nighttime-2229894/
 
 1. Image Name: slider.jpg
 Resource link: https://www.pexels.com/photo/woman-in-black-tank-top-holding-an-umbrella-in-front-of-yellow-concrete-wall-57851/
