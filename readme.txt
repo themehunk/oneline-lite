@@ -2,8 +2,8 @@
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires PHP: 5.5
-Tested up to: 6.7
-Stable tag: 6.5
+Tested up to: 6.8
+Stable tag: 6.6
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,6 +25,9 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+
+= 6.6 =
+Update: Tested with WordPress 6.8 and style updated.
 
 = 6.5 =
 Update: Screenshot updated with cco license.
@@ -233,9 +236,8 @@ Update: Style Improved.
 Initial release
 
 == Upgrade Notice ==
-= 6.4 =
-Update: Screenshot updated.
-Update: Text conditional issue resolved.
+= 6.6 =
+Update: Tested with WordPress 6.8 and style updated.
 
 
 
