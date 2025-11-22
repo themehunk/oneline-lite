@@ -3,7 +3,7 @@ Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires PHP: 5.5
 Tested up to: 6.8
-Stable tag: 6.6
+Stable tag: 6.7
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,6 +25,9 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+
+= 6.7 =
+Update: Copyright license updated.
 
 = 6.6 =
 Update: Tested with WordPress 6.8 and style updated.
@@ -256,7 +259,7 @@ License link : https://www.pexels.com/photo-license/
 == Theme License & Copyright ==
 Oneline-lite is distributed under the terms of the GNU GPL
 Oneline-lite-Copyright 2014 Oneline-lite, ThemeHunk.com
-License : GPL License
+License : GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 == Roboto Font ==
