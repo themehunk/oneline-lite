@@ -4,9 +4,9 @@ Author: ThemeHunk
 Theme URI: https://www.themehunk.com/product/oneline-lite-theme/
 Author URI: https://www.themehunk.com 
 Description: oneline Lite is the perfect theme for your business. Oneline lite is a versatile one page theme for creating beautiful websites.  Oneline is perfect for blog, business, portfolio, education, startup, agencies, eCommerce shop (WooCommerce), magazine, coaching, non-profit, events and most types of websites. This theme comes with powerful features which will help you in designing a wonderful website for any type of niche (Business, Landing page, E-commerce, Local business, Personal website). It is the most advanced free WordPress theme available on the web with live customizer. This theme comes with fully responsive slider with clean and elegant design. Theme supports drag & drop widget for section content, Woocommerce section to feature your product at home page and use your site as an online store. Contact section with lead generation functionality. These all section is supported by our plugin ThemeHunk customizer. Theme has latest SVG design with will make your site attractive. 
-Version: 6.7
+Version: 6.8
 Requires at least: 5.5
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.5
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -684,7 +684,7 @@ max-height: 300px;
 margin-right: 5px;
 }
 .flex-direction-nav {
-*height: 0;
+height: 0;
 }
 .flex-direction-nav a {
 text-decoration: none;
@@ -744,7 +744,7 @@ text-align: center;
 margin: 0 6px;
 display: inline-block;
 zoom: 1;
-*display: inline;
+display: inline;
 }
 .flex-control-paging li a {
 width: 11px;
@@ -1299,7 +1299,7 @@ content: " ";
 display: table;
 }
 .clearfix:after { clear: both }
-.clearfix { *zoom: 1  }
+.clearfix { zoom: 1  }
 a#pull { display: none }
 .navigation i { margin-right: 4px }
 /*-Custom Nav Widget-*/

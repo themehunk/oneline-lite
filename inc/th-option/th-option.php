@@ -28,7 +28,9 @@ $data = apply_filters(
                     'th_option_localize_vars',
                     array(
                         'oneClickDemo' =>esc_url( admin_url( 'themes.php?page=themehunk-site-library' )),
-
+                        // ✅ Add these
+                        'ajaxurl' => admin_url( 'admin-ajax.php' ),
+                        'nonce'   => wp_create_nonce( 'default_home_nonce' ),
                         )
                 );
     wp_localize_script( 'oneline-lite-admin-load', 'THAdmin', $data); 
@@ -60,6 +62,14 @@ function tab_page() {
 // Home Page Setup
 
 function default_home() {
+
+   if (!is_user_logged_in() || ! current_user_can( 'administrator' ) ) {
+
+            wp_die( - 1, 403 );
+
+            }
+check_ajax_referer( 'default_home_nonce', 'nonce' );
+
 $pages = get_pages(array(
     'meta_key' => '_wp_page_template',
     'meta_value' => 'frontpage.php'
@@ -103,6 +113,14 @@ function _check_homepage_setup(){
           * Setup Homepage
           */
         public function th_activeplugin(){
+
+           if (!is_user_logged_in() || ! current_user_can( 'administrator' ) ) {
+
+            wp_die( - 1, 403 );
+
+            }
+      check_ajax_referer( 'default_home_nonce', 'nonce' );
+
       if ( ! current_user_can( 'install_plugins' ) || ! isset( $_POST['init'] ) || ! $_POST['init'] ) {
         wp_send_json_error(
           array(

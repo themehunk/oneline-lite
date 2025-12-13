@@ -41,7 +41,8 @@ function openTab(evt, tabName) {
             THoptionAdmin._loaderActive($class,"Home Page Setup");
             var data = {
                 'action': 'default_home',
-                'home': 'saved'
+                'home': 'saved',
+                'nonce': THAdmin.nonce // Include the nonce here
             };
             jQuery.post(ajaxurl, data, function(response) {
                 setTimeout(function() {
@@ -142,7 +143,8 @@ function openTab(evt, tabName) {
                 data : {
                     action : 'th_activeplugin',
                     init   :  $init,
-                    slug   :  $slug
+                    slug   :  $slug,
+                    nonce  : THAdmin.nonce // ✅ add nonce
                 }
             }).done(function ( response ){
             	if( response.success) {
