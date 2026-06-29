@@ -4,7 +4,7 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
 <!--Start post-->
 <li id="post-<?php the_ID(); ?>" <?php post_class('post'); ?> >
 	<div class="post-heading">
-		<h2><a href="<?php the_permalink() ?>"  title="<?php _e('Permanent Link to','oneline-lite'); the_title_attribute(); ?>"><?php the_title();  ?></a></h2>
+		<h2><a href="<?php the_permalink() ?>"  title="<?php echo esc_attr( sprintf( __( 'Permanent Link to %s', 'oneline-lite' ), get_the_title() ) ); ?>"><?php the_title(); ?></a></h2>
 	</div>
 	<?php if ( in_array( get_post_type(), array( 'post', 'attachment' ) ) ):?>
 	<span class="post-date"><p><?php the_category(' / '); ?> <i class="fa fa-asterisk" aria-hidden="true"></i>

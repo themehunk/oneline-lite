@@ -113,7 +113,19 @@ $wp_customize->get_section('title_tagline')->title = esc_html__('General Setting
         'settings' => 'social_link_twitter',
          'type'       => 'text',
         ));
-// custom 
+// Site Loader
+$wp_customize->add_setting( 'oneline_lite_loader_enable', array(
+    'default'           => '1',
+    'capability'        => 'edit_theme_options',
+    'sanitize_callback' => 'sanitize_text_field',
+) );
+$wp_customize->add_control( 'oneline_lite_loader_enable', array(
+    'label'   => __( 'Enable Site Loader', 'oneline-lite' ),
+    'section' => 'title_tagline',
+    'type'    => 'checkbox',
+) );
+
+// custom
 $wp_customize->remove_section( 'header_image', array(
   'title'          => __( 'Header Background Image', 'oneline-lite' ),
   'theme_supports' => 'custom-header',

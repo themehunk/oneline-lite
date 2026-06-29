@@ -2,7 +2,7 @@
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires PHP: 5.5
-Tested up to: 6.9
+Tested up to: 7.0
 Stable tag: 6.7
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html

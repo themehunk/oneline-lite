@@ -13,5 +13,6 @@
 	require_once( trailingslashit( get_template_directory() ) . '/customizer/pro-button/class-customize.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/th-option/th-option.php' );
 	include( trailingslashit( get_template_directory() ) . '/inc/th-option/child-notify.php' );
+	include( trailingslashit( get_template_directory() ) . '/inc/th-option/plugin-notice.php' );
 
 	?>

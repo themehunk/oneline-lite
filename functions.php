@@ -247,4 +247,38 @@ if ( ! function_exists( 'wp_body_open' ) ) {
   function wp_body_open() {
     do_action( 'wp_body_open' );
   }
-} ?>
+}
+
+function oneline_lite_split_menu_script() {
+    if ( get_theme_mod( 'header_layout' ) !== 'split' ) {
+        return;
+    }
+
+    ob_start();
+    if ( get_theme_mod( 'title_disable' ) !== '' ) {
+        $logo_html = '<li class=\'logo-cent\'><h1><a href=\'' . esc_url( home_url( '/' ) ) . '\'>' . esc_html( get_bloginfo( 'name' ) ) . '</a></h1><p>' . esc_html( get_bloginfo( 'description' ) ) . '</p></li>';
+    } else {
+        oneline_lite_the_custom_logo();
+        $logo_output = ob_get_clean();
+        ob_start();
+        $logo_html = '<li class=\'logo-cent\'>' . $logo_output . '</li>';
+    }
+    ob_end_clean();
+    ?>
+    <script>
+    jQuery(document).ready(function() {
+        var position = jQuery("ul.menu > li").length;
+        var middle = Math.round(position/2);
+        var i = 0;
+        jQuery('ul.menu > li').each(function() {
+            if(i == middle) {
+                jQuery(this).before("<?php echo addslashes( $logo_html ); ?>");
+            }
+            i++;
+        });
+    });
+    </script>
+    <?php
+}
+add_action( 'wp_footer', 'oneline_lite_split_menu_script' );
+?>

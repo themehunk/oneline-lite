@@ -103,7 +103,7 @@ return $return;
             );
       $my_query = new WP_Query($args);
         if ($my_query->have_posts()) { ?>
-            <h3 class='related-heading';><?php _e('You may also like this','oneline-lite'); ?></h3>
+            <h3 class='related-heading'><?php _e('You may also like this','oneline-lite'); ?></h3>
             <?php
             while ($my_query->have_posts()) : $my_query->the_post();
                 ?>
@@ -142,7 +142,7 @@ function oneline_lite_pagination() {
 
 /*Number of comment*/
 function oneline_lite_comment_number(){ 
- comments_popup_link(__('No Comment','oneline-lite'), __('1 Comment','oneline-lite'), __('% Comments','oneline-lite')); 
+ echo '<a href="' . esc_url( get_comments_link() ) . '">' . wp_kses_post( get_comments_number_text( __( 'No Comment', 'oneline-lite' ), __( '1 Comment', 'oneline-lite' ), __( '% Comments', 'oneline-lite' ) ) ) . '</a>';
  }
 
 if (!function_exists('oneline_lite_svg_enable')) {
@@ -178,10 +178,10 @@ if (!function_exists('oneline_lite_svg_bottom_enable')) {
 }
 if (!function_exists('oneline_lite_page_svg_top_enable')) {
     function oneline_lite_page_svg_top_enable(){
-        $custom_background_color = get_background_color();
+        $custom_background_color = get_theme_mod( 'background_color', 'f7f7f7' );
         $svg_top_disable= get_theme_mod('oneline-lite_svg_disable');
         if($svg_top_disable =='' || $svg_top_disable =='0'){
-            $return = '<div style="fill:#'.$custom_background_color.'" class="svg-bottom-container">
+            $return = '<div style="fill:#'.esc_attr($custom_background_color).'" class="svg-bottom-container">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none" class="oneline-svg">
                 <path d="M0 0 L100 0 L100 2 L0 100 Z"></path>
             </svg>
@@ -194,10 +194,10 @@ if (!function_exists('oneline_lite_page_svg_top_enable')) {
 }
 if (!function_exists('oneline_lite_page_svg_bottom_enable')) {
     function oneline_lite_page_svg_bottom_enable(){
-        $custom_background_color = get_background_color();    
+        $custom_background_color = get_theme_mod( 'background_color', 'f7f7f7' );    
         $svg_bottom_disable= get_theme_mod('oneline-lite_svg_disable');
         if($svg_bottom_disable =='' || $svg_bottom_disable =='0'){
-            $return = '<div style="fill:#'.$custom_background_color.'" class="svg-top-container">
+            $return = '<div style="fill:#'.esc_attr($custom_background_color).'" class="svg-top-container">
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none" class="oneline-svg">
             <g transform="translate(0,-952.36218)"><path d="m 0,1052.3622 100,0 0,-2 L 952.36218,100 z"></path></g>
         </svg>

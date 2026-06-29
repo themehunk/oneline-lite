@@ -13,7 +13,7 @@ if ( is_active_sidebar( 'first-footer-widget-area'  )
 || is_active_sidebar( 'second-footer-widget-area' )
 || is_active_sidebar( 'third-footer-widget-area'  )
 ){
-   echo oneline_lite_svg_enable('footer_top_svg_background');
+   echo oneline_lite_svg_enable();
     	get_sidebar('footer');
     }
 ?>
