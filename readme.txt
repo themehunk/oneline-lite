@@ -3,7 +3,7 @@ Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, translation-ready,blog,portfolio,two-columns,custom-logo,theme-options,threaded-comments	
 Requires PHP: 5.5
 Tested up to: 7.0
-Stable tag: 6.7
+Stable tag: 6.7.1
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,6 +25,24 @@ Yes, we have created our theme in such a way that it can support almost all plug
 Yes, all our theme works on multisite.
 
 == Changelog ==
+= 6.7.1 =
+* Update: WordPress 7.0 compatibility fixes applied.
+* Fix: Deprecated bloginfo('pingback_url') replaced with conditional pingback link.
+* Fix: Deprecated comments_popup_link() replaced with get_comments_link() and get_comments_number_text().
+* Fix: Deprecated get_background_color() replaced with get_theme_mod('background_color').
+* Fix: HTML syntax error in related posts heading (stray semicolon in class attribute).
+* Fix: die() in comments.php replaced with wp_die() for proper WordPress error handling.
+* Fix: Split menu inline script moved to wp_footer hook to load after jQuery.
+* Fix: Font Awesome 4 font-family references updated to Font Awesome 5 Free and Font Awesome 5 Brands.
+* Fix: Social share icon ::before pseudo-elements corrected for proper FA5 brand icon rendering.
+* Fix: Site loader CSS rewritten — flexbox centering, visible spinner ring with theme accent color.
+* New: Site loader enable/disable option added to Customizer (General Setting).
+* New: Themehunk Customizer plugin install/activate admin notice added (Blocksy-style banner).
+* Improvement: Post title, date meta, READ MORE button, post meta row and social share strip design improved.
+* Improvement: READ MORE button uses theme accent color (#D4B068) for border and hover state.
+* Improvement: Post image hover changed from grayscale to smooth scale zoom.
+* Update: Tested up to WordPress 7.0.
+
 = 6.7 =
 Update: Copyright license updated.
 Update: Patch stack issues resolved. th_activeplugin() and default_home() function modified with ajax nonce verification.
@@ -239,6 +257,9 @@ Update: Style Improved.
 Initial release
 
 == Upgrade Notice ==
+= 6.7.1 =
+WordPress 7.0 compatibility fixes, Font Awesome 5 icon improvements, site loader, plugin notice, and post design enhancements.
+
 = 6.6 =
 Update: Tested with WordPress 6.8 and style updated.
 
