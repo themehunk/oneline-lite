@@ -7,8 +7,8 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<h2><a href="<?php the_permalink() ?>"  title="<?php echo esc_attr( sprintf( __( 'Permanent Link to %s', 'oneline-lite' ), get_the_title() ) ); ?>"><?php the_title(); ?></a></h2>
 	</div>
 	<?php if ( in_array( get_post_type(), array( 'post', 'attachment' ) ) ):?>
-	<span class="post-date"><p><?php the_category(' / '); ?> <i class="fa fa-asterisk" aria-hidden="true"></i>
-		<a href="<?php the_permalink(); ?>"> <?php echo get_the_date(); ?></a>
+	<span class="post-date"><p><?php the_category(' / '); ?> <i class="fas fa-circle" aria-hidden="true"></i>
+		<a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a>
 	</p></span>
 	<?php endif;?>
 	<div class="post-img-wrapper">

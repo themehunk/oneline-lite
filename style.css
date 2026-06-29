@@ -569,13 +569,13 @@ li.nav-next a:hover:after, li.nav-previous a:hover:after {
   color:#fff;
 }
 li.nav-next a:after {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
     content: "\f101";
     color: #D4B068;
 }
 
 li.nav-previous a:after {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
     content: "\f100";
     color: #D4B068;
 }
@@ -1553,7 +1553,7 @@ position: relative;
 }
 .service-icon1 a:before{
 content: "\f0eb";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 color:#D4B068;
 font-size:50px;
 display: inline-block;
@@ -1571,7 +1571,7 @@ color:#D4B068;
 }
 .service-icon2 a:before{
 content: "\f130";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 color:#D4B068;
 font-size:50px;
 display: inline-block;
@@ -1585,7 +1585,7 @@ transition: all 1s ease;
 }
 .service-icon3 a:before{
 content: "\f085";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 color:#D4B068;
 font-size:50px;
 display: inline-block;
@@ -1601,7 +1601,7 @@ transition: all 1s ease;
 }
 .service-icon4 a:before{
 content: "\f087";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 color:#D4B068;
 font-size:50px;
 display: inline-block;
@@ -1967,7 +1967,7 @@ border:2px solid #fff;
 }
 .social-meta .social-social-fb a:before{
 content: "\f09a";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size: 20px;
 }
 .social-meta li a:hover{
@@ -1978,23 +1978,23 @@ transition: all 0.25s ease-in-out;
 }
 .social-social-tw a:before{
 content: "\f099";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size:20px;
 display: block;   
 }
 .social-social-gm a:before{
 content: "\f0d5";
-font-family: FontAwesome;  
+font-family: "Font Awesome 5 Free"; font-weight: 900;  
 font-size:20px;  
 }
 .social-social-insta a:before{
 content: "\f0d5";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size:20px;  
 }
 .social-social-ln a:before{
 content: "\f0e1";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size:20px;
 }
 .social-meta a{
@@ -2152,27 +2152,27 @@ display: block;
 }
 .team-social-meta .team-social-social-fb a:before{
 content: "\f09a";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size: 14px
 }
 .team-social-social-tw a:before{
 content: "\f099";
-font-family: FontAwesome; 
+font-family: "Font Awesome 5 Free"; font-weight: 900; 
 font-size:14px;    
 }
 .team-social-social-gm a:before{
 content: "\f0d5";
-font-family: FontAwesome;  
+font-family: "Font Awesome 5 Free"; font-weight: 900;  
 font-size:14px; 
 }
 .team-social-social-insta a:before{
 content: "\f0d5";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size:14px;  
 }
 .team-social-social-ln a:before{
 content: "\f0e1";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size:14px;
 }
 /*end team style*/
@@ -2552,7 +2552,7 @@ transition: all 1s ease;
 
 .price-icon1 a:before{
 content: "\f217";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 color:#D4B068;
 font-size:40px;
 display: inline-block;
@@ -2571,7 +2571,7 @@ transition: all 1s ease;
 }
 .price-icon2 a:before{
 content: "\f00c";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 color:#D4B068;
 font-size:40px;
 display: inline-block;
@@ -2590,7 +2590,7 @@ transition: all 1s ease;
 }
 .price-icon3 a:before{
 content: "\f122";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 color:#D4B068;
 font-size:40px;
 display: inline-block;
@@ -2660,7 +2660,7 @@ font-size:18px; color:#fff;text-align: left;line-height: 35px;padding-left: 35px
 }
 .add-heading h3:before{
 content: "\f041";
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
 font-size: 40px;
 padding: 5px;
 }
@@ -2760,7 +2760,7 @@ text-align: left;
 }
 
 .widget ul li:before{
-font-family: FontAwesome;
+font-family: "Font Awesome 5 Free"; font-weight: 900;
  content: "\f138"; 
 padding-right:10px; 
 color:#D4B068;
@@ -2768,7 +2768,7 @@ margin-left: -1.5em;
 }
 
 .widget #recentcomments .recentcomments:before{
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free"; font-weight: 900;
  content: "\f0e6"; 
 padding-right:10px; 
 color:#D4B068;
@@ -3279,7 +3279,7 @@ a#pull:after {
     display: inline-block;
     font-size: 30px;
     color: #666; 
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
 }
 .smaller a#pull:after {
    color: #fff;  
@@ -3465,293 +3465,333 @@ ul li, ul {
     margin: 0;
     padding: 0;
 }
-.post-heading h2 , .post-heading h2 a{
-    line-height: 40px;
-    font-weight: 500;
-    color:#666;
-    margin:0;
-
+/* ---- Post heading ---- */
+.post-heading h2,
+.post-heading h2 a {
+    font-size: 22px;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #1a202c;
+    margin: 0 0 4px;
+    transition: color 0.2s ease;
 }
-.post-img-wrapper{
-  position:relative;
-  width: 100%;
+.post-heading h2 a:hover {
+    color: #2271b1;
+}
+
+/* ---- Post image ---- */
+.post-img-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 16px;
 }
 .post img {
     max-width: 100%;
     height: auto;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-     
+    display: block;
+    transition: transform 0.4s ease;
 }
 .post img:hover {
-   
-    transition: all 1s ease;
-    -webkit-filter: grayscale(1);
-}
-.post-date{
-    width:100%;
-}
-.post-date p{
-    color: #8e8d8d;
-    margin:0;
-    padding-top: 15px;
-    padding-bottom: 40px;
-    font-weight:bold;
+    transform: scale(1.03);
 }
 
-.single-header .post-date p{
-padding-top:30px;
-padding-bottom:10px;
+/* ---- Post date / category meta ---- */
+.post-date {
+    width: 100%;
 }
-
-span.post-date p i {
-    font-size: 10px;
-    padding: 0 4px 1px 2px;
-    color: #8C8989;
-}
-.post-date a{
-    font-size: 13px; 
-    color: #8e8d8d;
-    letter-spacing: .5px;
-    font-weight:bold;
-}
-.post-date a:hover{
-    border-bottom: 1px solid #D4B068;
-}
-.post-comment a:before {
-    content: "\f0e6";
-    font-family: FontAwesome;
-    color: #8C8C8C;
-    font-size: 15px;
-    margin-right: 6px;
-}
-.post-meta a{
-    color: #8C8C8C;
+.post-date p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    color: #718096;
     font-size: 12px;
-    font-weight:bold;
-    letter-spacing: .6px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+.single-header .post-date p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+span.post-date p i.meta-dot,
+span.post-date p i.fas.fa-circle {
+    font-size: 5px;
+    color: #a0aec0;
+    vertical-align: middle;
+}
+.post-date a {
+    font-size: 12px;
+    color: #718096;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+}
+.post-date a:hover {
+    color: #2271b1;
+    border-bottom: none;
+}
 
+/* ---- READ MORE button ---- */
+span.post-readmore {
+    display: block;
+    text-align: center;
+    padding: 10px 0 20px;
 }
-.post-meta{
-  overflow: hidden;
-  text-align: center;
-  padding-top:20px;
-  padding-bottom:20px;
-}
- .post-meta .post-comment {
-    position: static;
+span.post-readmore a {
     display: inline-block;
-    color:#8C8C8C;
-    float: left;
-}
-.post-meta .post-readmore{
-    position: static;
-    display: inline-block;
-    color:#666;
-    float: right;
-
-}
-.post-meta .post-previous {
-    position: static;
-    display: inline-block;
-    color:#666;
-    float: left;
-}
-.post-meta .post-next {
-    position: static;
-    display: inline-block;
-    color:#666;
-    float: right;
-}
-.post-next a:before{
-   content: "\f105";
-   font-family: FontAwesome;
-   color:#666;
-   float: right;
-   font-size:18px; 
-   position:relative;
-   right:15px;  
-}
-.post-previous a:before{
-   content: "\f104";
-   font-family: FontAwesome;
-   color:#666;
-   float: left;
-   font-size:18px;
-   position:relative;
-   left:15px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #D4B068;
+    border: 2px solid #D4B068;
+    padding: 7px 22px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
 }
 span.post-readmore a:hover {
-    border-bottom: 1px solid #D4B068;
-    -webkit-transition: all 0.35s ease-in-out;
-   transition: all 0.35s ease-in-out;
+    background: #D4B068;
+    color: #fff;
+    border-color: #D4B068;
 }
-.post-comment a:hover:before, span.post-author a:hover:before{
-color:#D4B068;
--webkit-transition: all 0.35s ease-in-out;
-transition: all 0.35s ease-in-out;  
+
+/* ---- Post meta (comment + author) ---- */
+.post-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #edf2f7;
+    border-bottom: 1px solid #edf2f7;
+    margin-bottom: 4px;
+}
+.post-meta a {
+    color: #718096;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.post-meta a:hover {
+    color: #2271b1;
+}
+.post-meta .post-comment {
+    display: inline-flex;
+    align-items: center;
+    color: #718096;
+    float: none;
+}
+.post-meta span.post-author {
+    display: inline-flex;
+    align-items: center;
+    float: none;
+}
+.post-comment a:before {
+    content: "\f075";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #a0aec0;
+    font-size: 13px;
+    margin-right: 5px;
+    transition: color 0.2s ease;
+}
+.post-comment a:hover:before,
+span.post-author a:hover:before {
+    color: #2271b1;
+    transition: color 0.2s ease;
 }
 span.post-author a:before {
     content: "\f007";
-    font-family: FontAwesome;
-    color: #8C8989;
-    font-size: 15px;
-    margin-right: 6px;
-}
-.post-meta span.post-author {
-    float: right;
-}
-.post-meta .post-previous a:hover,.post-meta .post-next a:hover,
-.post-meta .post-previous a:hover:before,.post-meta .post-next a:hover:before,
-.post-meta .post-previous a:hover,.post-meta .post-next a:hover{
-color:#D4B068;
--webkit-transition: all 0.35s ease-in-out;
-transition: all 0.35s ease-in-out;
-}
-.post-meta .post-previous a:hover,.post-meta .post-next a:hover{
-  border-color: #D4B068;
-}
-.post-meta .post-previous a{
-text-decoration: none;
-color:#666;
-font-size: 14px;
-padding: 8px 8px 8px 25px;
-border:1px solid #808080;
-}
-.post-meta .post-next a{
-text-decoration: none;
-color:#666;
-font-size: 14px;
-padding: 8px 25px 8px 8px;
-border:1px solid #808080;
-}
-.post-bottom-strip{
-  width:100%;
-  display: block;
-}
-.post-social-icon{
-width:100%;
-text-align: center;
-}
-.post-social-meta{
-  overflow: hidden;
-  text-align: center;
-}
- .post-social-meta .post-social-social-fb,
- .post-social-meta .post-social-social-tw,
- .post-social-meta .post-social-social-wt,
- .post-social-meta .post-social-social-ln {
-    display: inline-block;
-    color:#FFF;
-    padding:6px;
-    margin: 0em;
-    }
-.post-social-meta li a{
-	border-radius: 100%;
-	color:#666;
-	display: block;
-	border:1px solid #666;
-	height: 34px;
-	width: 34px;
-}
-.post-social-meta a{
-text-decoration: none;
-font-size: 14px;
-padding: 10px;
-}
-.post-social-meta .post-social-social-fb a{
-color:#fff;
-border:1px solid #3B5998;
-text-decoration: none;
-background-color:#3B5998;
--webkit-transition: all 0.25s ease-in-out;
-transition: all 0.25s ease-in-out;
-}
-.post-social-meta .post-social-social-tw a{
-color:#fff;
-border:1px solid #55ACEE;
-text-decoration: none;
-background-color:#55ACEE;
--webkit-transition: all 0.25s ease-in-out;
-transition: all 0.25s ease-in-out;
-}
-.post-social-meta .post-social-social-wt a{
-color:#fff;
-border:1px solid #25d366;
-text-decoration: none;
-background-color:#25d366;
--webkit-transition: all 0.25s ease-in-out;
-transition: all 0.25s ease-in-out;
-}
-.post-social-meta .post-social-social-ln a{
-color:#fff;
-border:1px solid #0177B5;
-text-decoration: none;
-background-color:#0177B5;
--webkit-transition: all 0.25s ease-in-out;
-transition: all 0.25s ease-in-out;
-}
-.post-social-meta .post-social-social-fb a:hover,
-.post-social-meta .post-social-social-wt a:hover,
-.post-social-meta .post-social-social-ln a:hover,
-.post-social-meta .post-social-social-tw a:hover{
-border:1px solid #fff;
--webkit-transition: all 0.25s ease-in-out;
-transition: all 0.25s ease-in-out;
-}
-.post-social-meta .post-social-social-fb a:before{
-   content: "\f09a";
-   font-family: FontAwesome;
-   height: 12px;
-    width: 12px;
-    line-height: 12px;
-    display: block;
-}
-.post-social-social-tw a:before{
-   content: "\f099";
-   font-family: FontAwesome;
-   display: block;
-   height: 12px;
-    width: 12px;
-    line-height: 12px;
- }
-.post-social-social-wt a:before{
-   content: "\f232";
-   font-family: FontAwesome; 
-   height: 12px;
-    width: 12px;
-    line-height: 12px; 
-    display: block;   
-}
-.post-social-social-ln a:before{
-   content: "\f0e1";
-   font-family: FontAwesome;
-   height: 12px;
-    width: 12px;
-    line-height: 12px;
-    display: block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #a0aec0;
+    font-size: 13px;
+    margin-right: 5px;
+    transition: color 0.2s ease;
 }
 
-.post-social-meta ul:before {
-    background-color: #ccc;
-    content: "";
+/* ---- Post nav (prev/next) ---- */
+.post-meta .post-readmore {
     display: inline-block;
-    height:1px;
-    position: relative;
-    vertical-align: middle;
-    width:35%;
-    right: 0.5em;
-    margin-left: -30%;
+    color: #666;
 }
-.post-social-meta ul:after {
-    background-color: #ccc;
+.post-meta .post-previous {
+    display: inline-block;
+    color: #666;
+}
+.post-meta .post-next {
+    display: inline-block;
+    color: #666;
+}
+.post-next a:before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #666;
+    float: right;
+    font-size: 18px;
+    position: relative;
+    right: 15px;
+}
+.post-previous a:before {
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #666;
+    float: left;
+    font-size: 18px;
+    position: relative;
+    left: 15px;
+}
+.post-meta .post-previous a:hover,
+.post-meta .post-next a:hover,
+.post-meta .post-previous a:hover:before,
+.post-meta .post-next a:hover:before {
+    color: #2271b1;
+    transition: color 0.2s ease;
+}
+.post-meta .post-previous a:hover,
+.post-meta .post-next a:hover {
+    border-color: #2271b1;
+}
+.post-meta .post-previous a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    padding: 7px 7px 7px 24px;
+    border: 1px solid #cbd5e0;
+    border-radius: 3px;
+    transition: border-color 0.2s ease;
+}
+.post-meta .post-next a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    padding: 7px 24px 7px 7px;
+    border: 1px solid #cbd5e0;
+    border-radius: 3px;
+    transition: border-color 0.2s ease;
+}
+
+/* ---- Social share strip ---- */
+.post-bottom-strip {
+    width: 100%;
+    display: block;
+    padding-top: 6px;
+}
+.post-social-icon {
+    width: 100%;
+    text-align: center;
+}
+.post-social-meta {
+    text-align: center;
+    overflow: hidden;
+}
+.post-social-meta .post-social-social-fb,
+.post-social-meta .post-social-social-tw,
+.post-social-meta .post-social-social-wt,
+.post-social-meta .post-social-social-ln {
+    display: inline-block;
+    padding: 6px 4px;
+    margin: 0;
+}
+.post-social-meta li a {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.post-social-meta li a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.18);
+}
+.post-social-meta .post-social-social-fb a {
+    color: #fff;
+    background-color: #1877F2;
+    border: 1px solid #1877F2;
+}
+.post-social-meta .post-social-social-tw a {
+    color: #fff;
+    background-color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+}
+.post-social-meta .post-social-social-wt a {
+    color: #fff;
+    background-color: #25D366;
+    border: 1px solid #25D366;
+}
+.post-social-meta .post-social-social-ln a {
+    color: #fff;
+    background-color: #0A66C2;
+    border: 1px solid #0A66C2;
+}
+.post-social-meta .post-social-social-fb a:hover,
+.post-social-meta .post-social-social-tw a:hover,
+.post-social-meta .post-social-social-wt a:hover,
+.post-social-meta .post-social-social-ln a:hover {
+    border-color: rgba(255,255,255,0.4);
+}
+.post-social-meta .post-social-social-fb a:before {
+    content: "\f09a";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    line-height: 1;
+}
+.post-social-social-tw a:before {
+    content: "\f099";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    line-height: 1;
+}
+.post-social-social-wt a:before {
+    content: "\f232";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    line-height: 1;
+}
+.post-social-social-ln a:before {
+    content: "\f0e1";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    line-height: 1;
+}
+.post-social-meta ul:before {
+    background-color: #e2e8f0;
     content: "";
     display: inline-block;
     height: 1px;
     position: relative;
     vertical-align: middle;
-    width:35%;
+    width: 30%;
+    right: 0.5em;
+    margin-left: -25%;
+}
+.post-social-meta ul:after {
+    background-color: #e2e8f0;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
     left: 0.5em;
-    margin-right: -30%;
+    margin-right: -25%;
 }
 .single-post .svg_enable .single-post-content,
 .archive.woocommerce-page .svg_enable .page-content, 
@@ -4357,7 +4397,7 @@ header.smaller #main-menu-wrapper nav.navigation ul{
      -moz-transition: all 0.5s ease-out;
      -o-transition: all 0.5s ease-out;
      transition: all 0.5s ease-out;}
-    a#pull:after { content: "\f0c9"; display: inline-block; font-size:30px; font-family: FontAwesome; }
+    a#pull:after { content: "\f0c9"; display: inline-block; font-size:30px; font-family: "Font Awesome 5 Free"; font-weight: 900; }
    .mobile-menu-active a#pull:after {
     content: "\f00d";
 }
@@ -4788,7 +4828,7 @@ ul.portfolio li.portfolio-list:nth-of-type(4n+4) {
 .social-meta .social-social-fb a:before{
  
    content: "\f09a";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    font-size: 16px;
 
 }
@@ -4803,7 +4843,7 @@ ul.portfolio li.portfolio-list:nth-of-type(4n+4) {
 .social-social-tw a:before{
  
    content: "\f099";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    font-size:16px;
    display: block;
     
@@ -4813,21 +4853,21 @@ ul.portfolio li.portfolio-list:nth-of-type(4n+4) {
 .social-social-gm a:before{
  
    content: "\f0d5";
-   font-family: FontAwesome;  
+   font-family: "Font Awesome 5 Free"; font-weight: 900;  
    font-size:16px;
    
 }
 .social-social-insta a:before{
  
    content: "\f0d5";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    font-size:16px;
     
 }
 .social-social-ln a:before{
  
    content: "\f0e1";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    font-size:16px;
    
 
@@ -5182,7 +5222,7 @@ ul.portfolio-grid li.portfolio-list {
 .social-meta .social-social-fb a:before{
  
    content: "\f09a";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    font-size: 16px;
 
 }
@@ -5197,7 +5237,7 @@ ul.portfolio-grid li.portfolio-list {
 .social-social-tw a:before{
  
    content: "\f099";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    
    font-size:16px;
    display: block;
@@ -5208,21 +5248,21 @@ ul.portfolio-grid li.portfolio-list {
 .social-social-gm a:before{
  
    content: "\f0d5";
-   font-family: FontAwesome;  
+   font-family: "Font Awesome 5 Free"; font-weight: 900;  
    font-size:16px;
    
 }
 .social-social-insta a:before{
  
    content: "\f0d5";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    font-size:16px;
     
 }
 .social-social-ln a:before{
  
    content: "\f0e1";
-   font-family: FontAwesome;
+   font-family: "Font Awesome 5 Free"; font-weight: 900;
    font-size:16px;
    
 

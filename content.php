@@ -13,8 +13,8 @@
 		<span class="sticky-post"><?php _e( 'Featured', 'oneline-lite' ); ?></span>
 		<?php endif; ?>
 		
-		<span class="post-date"><p><?php the_category(' / '); ?> <i class="fa fa-asterisk" aria-hidden="true"></i>
-			<a href="<?php the_permalink(); ?>"> <?php echo get_the_date(); ?></a>
+		<span class="post-date"><p><?php the_category(' / '); ?> <i class="fas fa-circle" aria-hidden="true"></i>
+			<a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a>
 		</p></span>
 	</div>
 	<div class="post-detail clear">
