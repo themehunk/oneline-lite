@@ -26,7 +26,7 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 
-= 6.7.1 =
+= 6.7.2 =
 * Update: Style Improved.
 * Update: Recommended plugins updated.
 
