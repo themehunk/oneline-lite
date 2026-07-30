@@ -4,7 +4,7 @@ Author: ThemeHunk
 Theme URI: https://www.themehunk.com/product/oneline-lite-theme/
 Author URI: https://www.themehunk.com 
 Description: oneline Lite is the perfect theme for your business. Oneline lite is a versatile one page theme for creating beautiful websites.  Oneline is perfect for blog, business, portfolio, education, startup, agencies, eCommerce shop (WooCommerce), magazine, coaching, non-profit, events and most types of websites. This theme comes with powerful features which will help you in designing a wonderful website for any type of niche (Business, Landing page, E-commerce, Local business, Personal website). It is the most advanced free WordPress theme available on the web with live customizer. This theme comes with fully responsive slider with clean and elegant design. Theme supports drag & drop widget for section content, Woocommerce section to feature your product at home page and use your site as an online store. Contact section with lead generation functionality. These all section is supported by our plugin ThemeHunk customizer. Theme has latest SVG design with will make your site attractive. 
-Version: 6.7.1
+Version: 6.7.2
 Requires at least: 5.5
 Tested up to: 7.0
 Requires PHP: 5.5
@@ -5465,7 +5465,6 @@ width: 100%;
 }
 .woocommerce .products ul, .woocommerce ul.products {
     width: 100%;
-    max-width: 275px;
     margin: 0 auto;
 }
 .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
@@ -5763,4 +5762,70 @@ height: auto;
     top: 0;
     z-index: 0;
     display: block;
+}
+
+#wp-comment-cookies-consent{
+    float: left;
+}
+li .th-theme-actions-wrapper .thw-add-to-wishlist-button svg{
+    width: 14px!important;
+    height: 14px!important;
+}
+li .th-theme-actions-wrapper{
+    margin-top: 18px;
+}
+
+.summary .th-wishlist-single a .thw-to-browse-text, 
+.summary .th-wishlist-single a .thw-to-add-text {
+    display: none;
+}
+
+.summary .th-product-compare-btn.icon_type .text {
+    display: none;
+}
+
+.woocommerce .entry-summary .thw-add-to-wishlist-button-wrap, 
+.woocommerce  .summary .thunk-compare {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    color: #111;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    background: transparent;
+    text-align: center;
+    font-weight: normal;
+    min-width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 9px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.woocommerce  .summary  .th-product-compare-btn.icon_type .icon{
+    margin: 0;
+}
+li .th-theme-actions-wrapper .thw-add-to-wishlist-button, 
+li .th-theme-actions-wrapper .th-product-compare-btn.btn_type, 
+li .th-theme-actions-wrapper .th-product-compare-btn.icon_type{
+    line-height: 14px;
+    color: #111;
+}
+.woocommerce  .summary .variations,
+li .variations {
+    text-align: left;
+}
+@media screen and (max-width: 767px){
+    li .thw-add-to-wishlist-button-wrap .thw-to-browse-text, 
+ li  .thw-add-to-wishlist-button-wrap .thw-to-add-text {
+    display: none;
+}
+
+    li .th-product-compare-btn.icon_type .text {
+    display: none;
+}
 }

@@ -275,4 +275,67 @@ $style = "background-image:url(".($shopheaderimage[0]).")";
 return $style;
 }
 
-?>
+
+
+function zita_default_zita_woo_sidebar_widgets() {
+    // 1. Pehle check karein ki sidebar active hai ya usme widgets hain
+    if ( is_active_sidebar( 'th-woo-widget-area' ) ) {
+        return; // Agar sidebar khali nahi hai, toh code aage nahi chalega
+    }
+
+    $sidebars_widgets = get_option( 'sidebars_widgets', array() );
+
+    // 2. Double check: Agar database array me bhi th-woo-widget-area khali hai
+    if ( empty( $sidebars_widgets['th-woo-widget-area'] ) ) {
+        
+        // Default Filters Assign Karein
+        $sidebars_widgets['th-woo-widget-area'] = array(
+            'woocommerce_price_filter-1',
+            'woocommerce_product_categories-1',
+            'woocommerce_layered_nav_filters-1',
+            'woocommerce_rating_filter-1',
+            'woocommerce_layered_nav-1'
+        );
+        
+        // 3. Sidebars Update Karein
+        update_option( 'sidebars_widgets', $sidebars_widgets );
+        
+        // 4. Widget Options Setup
+        // Price Filter
+        // $price_filter = get_option( 'widget_woocommerce_price_filter', array() );
+        // $price_filter[1] = array( 'title' => 'Filter by Price' );
+        // update_option( 'widget_woocommerce_price_filter', $price_filter );
+
+        // Active Filters
+        $active_filters = get_option( 'widget_woocommerce_layered_nav_filters', array() );
+        $active_filters[1] = array( 'title' => 'Active Filters' );
+        update_option( 'widget_woocommerce_layered_nav_filters', $active_filters );
+
+        // Rating
+        $rating_filter = get_option( 'widget_woocommerce_rating_filter', array() );
+        $rating_filter[1] = array( 'title' => 'Average Rating' );
+        update_option( 'widget_woocommerce_rating_filter', $rating_filter );
+
+        // Attribute Filter (Color)
+        $attribute_filter = get_option( 'widget_woocommerce_layered_nav', array() );
+        $attribute_filter[1] = array( 
+            'title' => 'Filter by Color',
+            'attribute' => 'color',
+            'display_type' => 'list',
+            'query_type' => 'or'
+        );
+        update_option( 'widget_woocommerce_layered_nav', $attribute_filter );
+
+         // Categories
+        $cat_filter = get_option( 'widget_woocommerce_product_categories', array() );
+        $cat_filter[1] = array( 
+            'title' => 'Categories', 
+            'hierarchical' => 1,
+            'count' => 1,
+            'dropdown' => 0
+        );
+        update_option( 'widget_woocommerce_product_categories', $cat_filter );
+    }
+}
+// Widgets init hone par check karega
+add_action( 'widgets_init', 'zita_default_zita_woo_sidebar_widgets', 99 );
